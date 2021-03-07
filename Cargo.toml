@@ -1,0 +1,21 @@
+[package]
+name = "checkvist"
+categories = ["api-bindings"]
+description = "An API client for https://checkvist.com"
+homepage = "https://github.com/rpeshkov/checkvist-rs"
+repository = "https://github.com/rpeshkov/checkvist-rs"
+license = "MIT"
+readme = "README.md"
+version = "0.1.0"
+authors = ["Roman Peshkov <peshkovroman@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.13"
+ureq = { version = "2", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }
+serde_json = "1"
+

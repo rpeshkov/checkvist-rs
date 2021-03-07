@@ -1,0 +1,1 @@
+# Checkvist API client for Rust
